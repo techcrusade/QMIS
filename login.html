@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <br><br><br><br><br><br>
+<div class="container">
+  <div class="vijay">
+   
+
+<h2> Login </h2>
+
+<div class="button1">
+
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:150px; margin-left: 33%;display: flex; justify-content: center;align-items: center;"> Official</button>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="Officals.html" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="assets/img/login.jpg" alt="Avatar"  width="500" height="600" class="avatar">    </div>
+
+    <div class="container">
+      <label for="uname"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <a href="police map.html">
+      <button type="submit">Login</button></a>  
+      <label> 
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+
+
+<!-- next-->
+<br>
+
+
+  
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id03');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+<br>
+
+
+
+<button onclick="document.getElementById('id02').style.display='block'" style="width:150px; margin-left: 33%; display: flex; justify-content: center; align-items: center;"> Stakeholder</button>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="stakeholders.html" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="assets/img/login.jpg" alt="Avatar"  width="500" height="600" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <a href="police map.html">
+      <button type="submit">Login</button></a>  
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+<script>
+// Get the modal
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+</body>
+</html>
